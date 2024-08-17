@@ -728,6 +728,10 @@ h6 {
 
 /* Article */
 
+.miring {
+  font-style: italic;
+}
+
 .article h3 {
   font-size: medium;
   margin-top: 10px;
