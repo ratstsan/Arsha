@@ -728,6 +728,12 @@ h6 {
 
 /* Article */
 
+@media (max-width: 768px) {
+  .article-item img {
+    width: 500px;
+  }
+}
+
 .miring {
   font-style: italic;
 }
