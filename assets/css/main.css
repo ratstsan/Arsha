@@ -728,12 +728,6 @@ h6 {
 
 /* Article */
 
-@media (max-width: 768px) {
-  .article-item img {
-    width: 500px;
-  }
-}
-
 .miring {
   font-style: italic;
 }
@@ -1867,6 +1861,9 @@ section,
 
 .service-details .services-img {
   margin-bottom: 20px;
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
 }
 
 .service-details h3 {
@@ -1899,6 +1896,15 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+@media (max-width: 768px) {
+  .service-details .services-img {
+    width: 300px;
+    height: 200px;
+  }
+  .service-details .col-lg-8 {
+    margin-right: 50px;
+  }
 }
 
 /*--------------------------------------------------------------
