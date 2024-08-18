@@ -1897,19 +1897,29 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
-@media (max-width: 768px) {
-  .service-details .services-img {
-    width: 300px;
-    height: 200px;
-  }
-  .service-details .col-lg-8 {
-    margin-right: 50px;
-  }
+
+.sidebar {
+  margin-left: 50px;
+}
+.related-articles .article-item {
+  text-align: justify;
+  width: 300px;
+  margin-top: 20px;
+}
+.related-articles .article-item h6 {
+  margin-top: 5px;
+}
+.related-articles .article-item img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+@media (max-width: 768px) {
+  .service-details .services-img {
+    height: 200px;
+  }
+  .sidebar {
+    display: none;
+  }
 }
